@@ -1,0 +1,121 @@
+*{
+   padding: 0;
+   margin:0;
+   
+   
+}
+.bodycontainer{
+   padding:4px;
+   margin:5px;
+   margin-top: 5%;
+   margin-left: 40%;
+   width:fit-content;
+   align-content: center;
+   background-image: url(/painting-mountain-lake-with-mountain-background_188544-9126.jpg.avif);
+   background-size: cover;
+
+}
+.bodycontainer h1{
+   background-color: rgba(0, 11, 11, 0.6);
+   color: rgb(249, 249, 247);
+   border-radius: 5px;
+   align-content: center;
+   text-align: center;
+
+}
+.bodycontainer form{
+   align-content: center;
+   margin-top: 20px;
+   height: 300px;
+   width: 350px;
+   
+}
+fieldset legend{
+   background-color: blanchedalmond;
+   color: rgb(7, 7, 7);
+   font-size: 20px;
+   border-radius: 6px;
+   margin-top: 30px;
+   width: auto;
+ 
+   text-align: center;
+   margin-top:80px;
+   padding:5px;
+  
+  
+}
+legend{
+   margin-top: 10px;
+   padding-top: 10px;
+   margin-bottom: 80px;
+}
+.input, form label{
+   font-size: 20px;
+   color: rgb(255, 251, 251);
+   width: 17pc;
+   height:29px;
+   margin-left:45px;
+   margin-top: 0;
+   text-align:left;
+   border-radius: 5px;
+}
+.submit{
+   color:azure;
+   font-size: 20px;
+   width: 66px;
+   height: 29px;
+   margin-left: 100px;
+   margin-top: 20px;
+   border-radius: 5px;
+   background-color: rgb(87, 88, 102);
+}
+form h6{
+   font-size: 16px;
+   padding: 8px;
+   margin: auto;
+   margin-top: 40px;
+   color: azure;
+   
+}
+
+.form fieldset{
+   background-color: rgba(1, 48, 89, 0.6) ;
+   border-radius: 10px;
+   padding-top: 20px;
+
+}
+.form{
+   padding-top: 28px;
+}
+@media screen and (max-width: 768px){
+   .bodycontainer{
+      margin-left: 20%;
+   }
+   .bodycontainer form{
+      margin-left: 5%;
+   }
+   .input, form label{
+      margin-left: 10px;
+   }
+   .submit{
+      margin-left: 10px;
+   }
+   form h6{
+      margin-left: 10px;
+   }
+   .form fieldset{
+      margin-left: 10px;
+   }
+   .form{
+      margin-left: 10px;
+   }
+}
+@media screen and (max-width: 480px){
+   .bodycontainer{
+      margin-left: 10%;
+   }
+   .bodycontainer form{
+      margin-left: 5%;
+   }     
+   
+}
